@@ -94,3 +94,52 @@ header,
 	background-color: transparent;
 	border-color: #65daf9;
 }
+
+
+.active{
+	background-color: #65daf9 !important;
+}
+
+/* Sobre a empresa*/
+
+#about-area{
+	background-color: #f9f9f9;
+
+}
+
+.main-title{
+	color: #444;
+	margin: 0 0 65px 0;
+	font-size: 40px;
+	text-align: center;
+}
+
+.main-title::after{
+	content: "";
+	border-top: 2px solid #333333;
+	width: 15%;
+	position: absolute;
+	top: 105%;
+	left: 42.5%;
+}
+.about-title{
+	font-weight: bold;
+	font-size: 17px;
+	color: #444;
+	text-transform: uppercase;
+}
+
+
+#about-list{
+	list-style: none;
+	padding-left: 0%;
+}
+
+#about-list li{
+	line-height: 30px;
+}
+
+#about-list i{
+	color: #65daf9;
+	margin-right: 15px;
+}
