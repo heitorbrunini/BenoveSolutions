@@ -46,6 +46,7 @@ header,
 }
 
 #navbar-links a:hover {
+	color: #65daf9;
 	transform: scale(1.2);
 }
 
@@ -96,7 +97,7 @@ header,
 }
 
 
-.active{
+button.active{
 	background-color: #65daf9 !important;
 }
 
@@ -142,4 +143,32 @@ header,
 #about-list i{
 	color: #65daf9;
 	margin-right: 15px;
+}
+
+/* Serviços */
+
+.service-box{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+.service-box i, .service-box h4{
+	transition: all 0.5s;
+}
+
+.service-box i{
+	font-size: 36px;
+	margin-bottom: 20px;
+	color: #444;
+}
+
+.service-box h4{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4{
+	color: #65daf9;
+	transform: scale(1.2);
 }
