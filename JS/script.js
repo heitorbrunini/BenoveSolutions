@@ -14,7 +14,7 @@ $(document).ready(function () {
        
         let scroll = window.pageYOffset;
         
-        if ( scroll / dataAreaOffset.offsetTop > 0.60  && stop == 0) {
+        if ( scroll / dataAreaOffset.offsetTop > 0.62  && stop == 0) {
             progressBarA.style.width = '100%';
             progressBarB.style.width = '100%';
             progressBarC.style.width = '100%';

@@ -179,12 +179,12 @@ button.active{
 	padding: 0 20px;
   }
   
-  .progressbar-text {
+.progressbar-text {
 	font-weight: bold;
 	font-size: 32px;
   }
   
-  #data-area p {
+#data-area p {
 	color: #FFF;
 	text-align: center;
 	font-size: 26px;
@@ -192,7 +192,20 @@ button.active{
   }
   
 
-  #progressA:hover{
+#progressA:hover{
 	width: 30% !important;
 
   }
+
+#progressA{
+	transition: all 1s;
+}
+#progressB{
+	transition: all 1.5s;
+}
+#progressC{
+	transition: all 2s;
+}
+#progressD{
+	transition: all 2.5s;
+}
