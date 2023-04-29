@@ -13,10 +13,8 @@ $(document).ready(function () {
     window.addEventListener('scroll', function (){
        
         let scroll = window.pageYOffset;
-        console.log("scroll "  + scroll);
-        console.log(dataAreaOffset.offsetTop);
-
-        if (scroll > (dataAreaOffset.offsetTop - 700) && stop == 0) {
+        
+        if ( scroll / dataAreaOffset.offsetTop > 0.60  && stop == 0) {
             progressBarA.style.width = '100%';
             progressBarB.style.width = '100%';
             progressBarC.style.width = '100%';
@@ -27,7 +25,9 @@ $(document).ready(function () {
 
     })
 
-
+    setTimeout(function (params) {
+        $('#data-area').parallax({imageSrc:'img/cidadeparallax.png'});
+    })
 
 }
 
