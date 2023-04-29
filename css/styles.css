@@ -56,27 +56,28 @@ header,
 
 /*Slider*/
 
-#carouselExample .carousel-inner, #carouselExample .carousel-item{
+#carouselExample .carousel-inner,
+#carouselExample .carousel-item {
 	height: 90vh;
 }
 
-#carouselExample .carousel-caption{
+#carouselExample .carousel-caption {
 	top: 30%;
 }
 
-#carouselExample .carousel-caption h2{
+#carouselExample .carousel-caption h2 {
 	font-size: 50px;
 	margin-bottom: 30px;
 }
 
-#carouselExample .carousel-caption p{
+#carouselExample .carousel-caption p {
 	color: white;
 	margin-bottom: 22px;
 	font-weight: 300;
 	margin-bottom: 100px;
 }
 
-.main-btn{
+.main-btn {
 	background-color: #65daf9;
 	text-decoration: none;
 	color: #FFF;
@@ -89,7 +90,7 @@ header,
 	border: 3px solid transparent;
 }
 
-.main-btn:hover{
+.main-btn:hover {
 	text-decoration: none;
 	color: white;
 	background-color: transparent;
@@ -97,25 +98,25 @@ header,
 }
 
 
-button.active{
+button.active {
 	background-color: #65daf9 !important;
 }
 
 /* Sobre a empresa*/
 
-#about-area{
+#about-area {
 	background-color: #f9f9f9;
 
 }
 
-.main-title{
+.main-title {
 	color: #444;
 	margin: 0 0 65px 0;
 	font-size: 40px;
 	text-align: center;
 }
 
-.main-title::after{
+.main-title::after {
 	content: "";
 	border-top: 2px solid #333333;
 	width: 15%;
@@ -123,7 +124,8 @@ button.active{
 	top: 105%;
 	left: 42.5%;
 }
-.about-title{
+
+.about-title {
 	font-weight: bold;
 	font-size: 17px;
 	color: #444;
@@ -131,44 +133,46 @@ button.active{
 }
 
 
-#about-list{
+#about-list {
 	list-style: none;
 	padding-left: 0%;
 }
 
-#about-list li{
+#about-list li {
 	line-height: 30px;
 }
 
-#about-list i{
+#about-list i {
 	color: #65daf9;
 	margin-right: 15px;
 }
 
 /* Serviços */
 
-.service-box{
+.service-box {
 	text-align: center;
 	margin-bottom: 50px;
 }
 
 
-.service-box i, .service-box h4{
+.service-box i,
+.service-box h4 {
 	transition: all 0.5s;
 }
 
-.service-box i{
+.service-box i {
 	font-size: 36px;
 	margin-bottom: 20px;
 	color: #444;
 }
 
-.service-box h4{
+.service-box h4 {
 	font-size: 24px;
 	margin-bottom: 20px;
 }
 
-.service-box:hover > i, .service-box:hover > h4{
+.service-box:hover>i,
+.service-box:hover>h4 {
 	color: #65daf9;
 	transform: scale(1.2);
 }
@@ -177,35 +181,52 @@ button.active{
 
 .circle-box div {
 	padding: 0 20px;
-  }
-  
+}
+
 .progressbar-text {
 	font-weight: bold;
 	font-size: 32px;
-  }
-  
+}
+
 #data-area p {
 	color: #FFF;
 	text-align: center;
 	font-size: 26px;
 	margin-top: 20px;
-  }
-  
+}
 
-#progressA:hover{
+
+#progressA:hover {
 	width: 30% !important;
 
-  }
+}
 
-#progressA{
+#progressA {
 	transition: all 1s;
 }
-#progressB{
+
+#progressB {
 	transition: all 1.5s;
 }
-#progressC{
+
+#progressC {
 	transition: all 2s;
 }
-#progressD{
+
+#progressD {
 	transition: all 2.5s;
+}
+
+/*card*/
+.team-area{
+	margin-top: 30px;
+}
+hr {
+	position: relative;
+	top: 5px;
+	height: 3px;
+	background-color: #0d0d0d;
+	width: 20%;
+	margin-bottom: 50px;
+	margin-left: 39.7%;
 }
