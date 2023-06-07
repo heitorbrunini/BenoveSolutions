@@ -10,11 +10,11 @@ $(document).ready(function () {
     let stop = 0;
 
 
-    window.addEventListener('scroll', function (){
-       
+    window.addEventListener('scroll', function () {
+
         let scroll = window.pageYOffset;
-        
-        if ( scroll / dataAreaOffset.offsetTop > 0.62  && stop == 0) {
+
+        if (scroll / dataAreaOffset.offsetTop > 0.62 && stop == 0) {
             progressBarA.style.width = '100%';
             progressBarB.style.width = '100%';
             progressBarC.style.width = '100%';
@@ -26,10 +26,8 @@ $(document).ready(function () {
     })
 
     setTimeout(function (params) {
-        $('#data-area').parallax({imageSrc:'img/cidadeparallax.png'});
-        $('#apply-area').parallax({imageSrc:'img/pattern.png'});
+        $('#data-area').parallax({ imageSrc: 'img/cidadeparallax.png' });
+        $('#apply-area').parallax({ imageSrc: 'img/pattern.png' });
     })
 
-}
-
-)
+})
