@@ -218,9 +218,10 @@ button.active {
 }
 
 /*card*/
-.team-area{
+.team-area {
 	margin-top: 30px;
 }
+
 hr {
 	position: relative;
 	top: 5px;
@@ -231,7 +232,7 @@ hr {
 	margin-left: 39.7%;
 }
 
-.card-body{
+.card-body {
 	text-align: center;
 }
 
@@ -239,38 +240,40 @@ hr {
 
 #apply-area {
 	height: 500px;
-  }
-  
-  #apply-area .container-fluid, #apply-area .row {
+}
+
+#apply-area .container-fluid,
+#apply-area .row {
 	height: 100%;
-  }
-  
-  #apply-area .apply-box {
+}
+
+#apply-area .apply-box {
 	padding: 70px 50px;
 	text-align: center;
-  }
-  
-  #company-img {
+}
+
+#company-img {
 	background-image: url('../img/empresa.jpg');
 	background-size: cover;
 	height: 100%;
-  }
-  
-  #pattern-img h4, #pattern-img p {
-	color: #FFF;
-  }
+}
 
-  #pattern-img h4{
+#pattern-img h4,
+#pattern-img p {
+	color: #FFF;
+}
+
+#pattern-img h4 {
 	margin-top: 8%;
 	margin-bottom: 20px;
 	text-transform: uppercase;
-  }
+}
 
-  #pattern-img p{
+#pattern-img p {
 	margin-bottom: 20px;
-  }
+}
 
-  #apply-btn{
+#apply-btn {
 	display: block;
 	height: auto;
 	width: 180px;
@@ -279,8 +282,38 @@ hr {
 	margin-top: 30px;
 	background-color: transparent;
 	border-color: white;
-  }
+}
 
-  #apply-btn:hover{
+#apply-btn:hover {
 	background-color: #65daf9;
-  }
+}
+
+/*Portfólio*/
+
+.project-box {
+	margin-bottom: 30px;
+}
+
+#filter-btn-box {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#filter-btn-box .filter-btn {
+	color: #444;
+	border: 1px solid #444;
+	background-color: transparent;
+	text-transform: none;
+	margin:0 15px;
+	min-width: 100px;
+	width: auto;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 20px;
+}
+
+#filter-btn-box .active, #filter-btn-box .filter-btn:hover{
+	color: white !important;
+	background-color: #65daf9;
+	border-color: #65daf9 !important;
+}

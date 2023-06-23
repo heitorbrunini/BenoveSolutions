@@ -30,4 +30,10 @@ $(document).ready(function () {
         $('#apply-area').parallax({ imageSrc: 'img/pattern.png' });
     })
 
+    //filtro
+    $('.filter-btn').on(click, function (e) {
+        let type = $(this).attr('id');
+        let boxes = $('.project-box');
+    })
+
 })
