@@ -31,9 +31,44 @@ $(document).ready(function () {
     })
 
     //filtro
-    $('.filter-btn').on(click, function (e) {
+    $('.filter-btn').on('click', function (e) {
+
+        //animação botão
         let type = $(this).attr('id');
         let boxes = $('.project-box');
+        $('.main-btn').removeClass('active');
+        $(this).addClass('active');
+
+        switch (type) {
+            case "seo-btn":
+                eachBox("seo",boxes)
+                break;
+            case "dev-btn":
+                eachBox("dev",boxes)
+                break;
+            case "dsn-btn":
+                eachBox("dsg",boxes)
+                break;
+            case "all-btn":
+                eachBox("all",boxes)
+                break;
+            default:
+                break;
+        }
     })
+
+    function eachBox(type,boxes) {
+        if (type=='all') {
+            $(boxes).fadeIn();
+        }else{
+            $(boxes).each(function (params) {
+                if ( !$(this).hasClass(type) ) {
+                    $(this).fadeOut('slow');
+                }else{
+                    $(this).fadeIn();
+                }
+            })
+        }
+    }
 
 })
